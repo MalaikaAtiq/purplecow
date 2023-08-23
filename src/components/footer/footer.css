@@ -1,0 +1,57 @@
+.footer {
+  margin: 3% 10%;
+  display: flex;
+}
+
+.col2 ul>li {
+  list-style-type: none;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.col2 ul>li>a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.col1 {
+  width: 30%;
+}
+
+.col1 p {
+  line-height: 1.688rem;
+}
+
+.col2 {
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+  width: 40%;
+}
+
+.col2 h4 {
+  margin-left: 40px;
+}
+
+.col3 {
+  width: 30%
+}
+
+.logo {
+  width: 30%;
+  height: 17%;
+}
+
+.footer-bottom {
+  margin: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a {
+  font-weight: 500;
+  text-decoration: none;
+  color: black
+}
