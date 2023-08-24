@@ -25,6 +25,7 @@
   font-family: 'Inter-Regular';
   text-decoration: none;
   color: black;
+  font-size: 16px
 }
 .header .col3{
   flex-grow: 1;
