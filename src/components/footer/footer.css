@@ -1,42 +1,54 @@
+@import '../../assets/fonts/font.css';
+
 .footer {
   margin: 3% 10%;
   display: flex;
 }
 
-.col2 ul>li {
+.footer .col2 ul>li {
   list-style-type: none;
   line-height: 30px;
   font-weight: 500;
 }
 
-.col2 ul>li>a {
+.footer .col2 ul>li>a {
   list-style-type: none;
   text-decoration: none;
   color: black;
   display: block;
 }
 
-.col1 {
+.footer .col1 {
   width: 30%;
 }
 
-.col1 p {
+.footer .col1 p {
+  font-family: 'Inter-Light';
   line-height: 1.688rem;
 }
 
-.col2 {
+.footer .col2 {
   display: flex;
   justify-content: right;
   margin-right: 50px;
   width: 40%;
 }
 
-.col2 h4 {
+.footer .col2 h4 {
+  font-family: 'Inter-Semi-Bold';
   margin-left: 40px;
 }
 
-.col3 {
+.footer .col3 {
   width: 30%
+}
+
+.footer .col3 h4, .col3 h5{
+  font-family: 'Inter-Semi-Bold'
+}
+
+.footer .col3 p{
+  font-family: 'Inter-Light';
 }
 
 .logo {

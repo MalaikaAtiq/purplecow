@@ -1,58 +1,78 @@
+@import '../../assets/fonts/font.css';
+
 .openings {
   display: flex;
   justify-content: center;
-  margin: 0 10%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 229.6px;
+  padding-right: 162.4px;
+  background-color: #f9f9fc;
 }
 
 .openingstext {
   flex-grow: 1;
-  padding: 4% 0%;
-  margin-right: 3%;
 }
 
 .openingstext h2 {
-  font-size: 70px;
-  font-family: Gilroy;
-  font-weight: 600;
-  line-height: 73.5px;
+  font-size: 4.375rem;
+  font-family: 'Lato-Bold';
+  font-weight: 500;
+  line-height: 5.938rem;
+  margin-bottom: 0;
 }
 
 .openingstext p {
-  font-family: Lato;
-  font-size: 24px;
+  font-family: 'Inter-Regular';
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   letter-spacing: 0em;
+  margin-right: 90px;
+  margin-bottom: 30px;
 }
 
 .openingstext button {
+  font-family: 'Inter-Regular';
   background-color: #6F63DE;
-  width: 17.813rem;
+  width: 14.813rem;
   height: 3.563rem;
-  padding: 12px 48px 12px 48px;
   border-radius: 8px;
-  font-size: 20px;
-  gap: 10px;
+  font-size: 16px;
   color: white;
   border: none;
-  margin-top: 10%;
+}
+.buttonvector{
+  margin-left: 2%;
+}
+.openingsimage {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .lifeatxgrid {
   text-align: center;
-  margin: 10% 10%;
+  padding-top: 96px;
+  padding-left: 229.6px;
+  padding-right: 162.4px;
+  padding-bottom: 96px;
 }
 
 .lifeatxgrid h2 {
-  font-size: 70px;
-  font-family: Gilroy;
-  font-weight: 600;
+  font-size: 4.375rem;
+  font-family: 'Lato-Bold';
+  font-weight: 400;
   line-height: 73.5px;
+  margin: 0;
+  padding-bottom: 27px
 }
 
 iframe {
-  width: 100%;
-  height: 818.37px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 45rem;
+  min-height: 45rem;
+  border: none;
 }
 
 .reasons {
@@ -62,11 +82,11 @@ iframe {
 
 .reasons h2 {
   text-align: center;
-  font-family: Gilroy;
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 73px;
-  margin: 0 25%;
+  font-family: 'Lato-Bold';
+  font-size: 4.375rem;
+  font-weight: 400;
+  line-height: 105px;
+  margin: 0 23%;
 }
 
 .reasonscontainer {
@@ -75,29 +95,42 @@ iframe {
   justify-content: space-between;
 }
 
-.reasonitem div {
+.reasonitem1 div,
+.reasonitem2 div {
   margin: 13% 0;
 }
 
-.reasonitem div>p {
-  font-family: Gilroy;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 39px;
+.reasonitem1 div>p {
+  font-family: 'Inter-Semi-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.438rem;
   letter-spacing: 0em;
   margin-right: 20%;
 }
 
+.reasonitem2 div>p {
+  font-family: 'Inter-Semi-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.438rem;
+  letter-spacing: 0em;
+  margin-right: 25%;
+}
+
 .growth {
-  margin: 10% 10%;
+  /* margin: 10% 10%; */
+  padding-top:96px;
+  padding-left: 229.6px;
+  padding-right: 162.4px;
 }
 
 .growth h2 {
   text-align: center;
-  font-family: Gilroy;
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 73px;
+  font-family: 'Lato-Bold';
+  font-size: 4.375rem;
+  font-weight: 400;
+  line-height: 105px;
   letter-spacing: -0.02em;
   margin: 0 20%;
 }
@@ -107,34 +140,65 @@ iframe {
   margin: 5% 0;
 }
 
+.growthitem1 {
+  margin-top: 8.5%;
+}
+
+.bestplace {
+  font-family: 'Amanda';
+  color: #71c9b9;
+  font-size: 4.625rem;
+  font-weight: 500;
+  line-height: 5.938rem;
+  transform: rotate(-20deg);
+  margin-top: -25%;
+  margin-left: 60%;
+  margin-bottom: 0;
+}
+
 .growthitem2>img.growth2 {
-  margin-left: -12%;
+  margin-left: -9%;
   margin-top: -5%;
 }
 
-
-
 .growthitem2>div>p {
-  display: inline-block;
-  font-family: Gilroy;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 39px;
+  /* display: inline-block; */
+  font-family: 'Inter-Semi-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.438rem;
   letter-spacing: 0em;
+  margin: 0% 5%;
 }
 
 .growthitem3>div {
-  margin: 7% 0;
+  margin: 7% 7%;
 }
 
 .growthitem3>div>p {
-  display: inline-block;
-  font-family: Gilroy;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 39px;
+  /* display: inline-block; */
+  font-family: 'Inter-Semi-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.438rem;
   letter-spacing: 0em;
+  margin-left: 5%;
+  margin-right: 25%;
 }
+
+.iconbox {
+  display: flex;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+
+.iconbox img {
+  width: 70px;
+  height: 70px;
+}
+
 
 .footprint {
   padding: 3% 10%;
@@ -143,25 +207,24 @@ iframe {
 }
 
 .footprint button {
+  font-family: 'Inter-Regular';
   background-color: #6F63DE;
-  width: 17.813rem;
+  width: 14.813rem;
   height: 3.563rem;
-  padding: 12px 48px 12px 48px;
   border-radius: 8px;
-  font-size: 20px;
-  gap: 10px;
+  font-size: 16px;
   color: white;
   border: none;
 }
 
 .footprinthead1 {
-  font-family: Gilroy;
-  font-size: 90px;
+  font-family: 'Lato-Bold';
+  font-size: 4.375rem;
   font-weight: 600;
   line-height: 94px;
   letter-spacing: -0.02em;
   text-align: center;
-
+  margin-bottom: 0;
 }
 
 .footprint img {
@@ -169,20 +232,20 @@ iframe {
 }
 
 .footprint p {
-  font-family: Lato;
-  font-size: 24px;
+  font-family: 'Inter-Regular';
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 2.25rem;
   letter-spacing: 0em;
   text-align: center;
-  margin: 0 10%
+  margin: 0 20%
 }
 
 .footprinthead2 {
-  font-family: Lato;
-  font-size: 48px;
+  font-family: 'Lato-Bold';
+  font-size: 3rem;
   font-weight: 600;
-  line-height: 58px;
+  line-height: 3rem;
   letter-spacing: -0.02em;
 }
 
@@ -195,7 +258,7 @@ iframe {
 }
 
 .formcontainer h2 {
-  font-family: Gilroy;
+  font-family: 'Lato-Bold';
   font-size: 70px;
   font-weight: 600;
   line-height: 94px;
@@ -205,7 +268,7 @@ iframe {
 }
 
 .formcontainer p {
-  font-family: Inter;
+  font-family: 'Inter-Regular';
   margin-right: 15%;
   font-size: 18px;
   font-weight: 400;
@@ -219,7 +282,7 @@ iframe {
 }
 
 .form input {
-  font-family: Lato;
+  font-family: 'Inter-Regular';
   outline: none;
   color: white;
   display: block;
@@ -233,7 +296,7 @@ iframe {
 }
 
 .form textarea {
-  font-family: Lato;
+  font-family: 'Inter-Regular';
   outline: none;
   color: white;
   display: block;
@@ -257,6 +320,7 @@ iframe {
   background-color: white;
   padding: 12px 48px 12px 48px;
   border-radius: 8px;
+  font-family: 'Inter-Regular';
 }
 
 .formbutton {

@@ -1,22 +1,23 @@
 import React from "react"
 import './careers.css'
-import growth1 from '../../assets/careers/careers-culture.png'
-import growth2 from '../../assets/careers/careers-culture-2.png'
-import honesty from '../../assets/careers/Group 979.png'
-import goal from '../../assets/careers/Group 978.png'
-import Group970 from '../../assets/careers/Group 970.png'
-import Group974 from '../../assets/careers/Group 974.png'
-import Group981 from '../../assets/careers/Group 981.png'
-import Group982 from '../../assets/careers/Group 982.png'
-import Group985 from '../../assets/careers/Group 985.png'
-import Group983 from '../../assets/careers/Group 983.png'
-import Group984 from '../../assets/careers/Group 984.png'
-import Group980 from '../../assets/careers/Group 980.png'
-import Group948 from '../../assets/careers/Group 948.png'
-import Group975 from '../../assets/careers/Group 975.png'
-import Group976 from '../../assets/careers/Group 976.png'
-import Group977 from '../../assets/careers/Group 977.png'
-import Group973 from '../../assets/careers/Group 973.png'
+import growth1 from '../../assets/images/careers/careers-culture.png'
+import growth2 from '../../assets/images/careers/careers-culture-2.png'
+import honesty from '../../assets/images/careers/Group 979.png'
+import goal from '../../assets/images/careers/Group 978.png'
+import clock from '../../assets/images/careers/clock.svg'
+import vector from '../../assets/images/careers/Vector.svg'
+import Group970 from '../../assets/images/careers/Group 970.png'
+import Group974 from '../../assets/images/careers/Group 974.png'
+import Group981 from '../../assets/images/careers/Group 981.png'
+import Group982 from '../../assets/images/careers/Group 982.png'
+import Group985 from '../../assets/images/careers/Group 985.png'
+import Group983 from '../../assets/images/careers/Group 983.png'
+import Group984 from '../../assets/images/careers/Group 984.png'
+import Group948 from '../../assets/images/careers/Group 948.png'
+import Group975 from '../../assets/images/careers/Group 975.png'
+import Group976 from '../../assets/images/careers/Group 976.png'
+import Group977 from '../../assets/images/careers/Group 977.png'
+import Group973 from '../../assets/images/careers/Group 973.png'
 
 function Careers() {
   return (
@@ -26,7 +27,7 @@ function Careers() {
         <div className="openingstext">
           <h2> Let's make a dent in the universe together! </h2>
           <p> At Xgrid, you are guaranteed a chance to transform your career, your team, and your community. </p>
-          <button> View Openings </button>
+          <button> View Openings <span className="buttonvector"> <img src={vector} alt="" /> </span></button>
         </div>
 
         <div className="openingsimage">
@@ -45,7 +46,7 @@ function Careers() {
         <h2> 6 reasons why you'd love <span style={{ "color": "#6F63DE" }}> this place </span> </h2>
         <div className="reasonscontainer">
 
-          <div className="reasonitem">
+          <div className="reasonitem1">
             <div>
               <img src={Group981} alt="" />
               <p> Align your key skills with your long term goals </p>
@@ -63,9 +64,9 @@ function Careers() {
 
           </div>
 
-          <div className="reasonitem">
+          <div className="reasonitem2">
             <div>
-              <img src={Group980} alt="" />
+              <img src={clock} alt="" />
               <p> No clock ins clock outs because we trust you </p>
             </div>
 
@@ -78,7 +79,8 @@ function Careers() {
               <img src={Group984} alt="" />
               <p> Communicate and collaborate to accomplish a shared goal </p>
             </div>
-          </div>
+          </div> 
+
 
           <div className="reasonsimage">
             <img src={Group970} alt="" />
@@ -96,13 +98,15 @@ function Careers() {
 
           <div className="growthitem1">
             <img src={growth1} alt="" className="growth1" />
+
+            <p className="bestplace"> best place.. </p>
           </div>
 
 
           <div className="growthitem2">
             <img src={growth2} alt="" className="growth2" />
 
-            <div className="iconbox">
+          <div className="iconbox">
               <img src={honesty} alt="" />
               <p> Honesty & excellence go hand in hand </p>
             </div>
@@ -110,22 +114,24 @@ function Careers() {
               <img src={goal} alt="" />
               <p> Goal is to encourage bold decisions </p>
             </div>
+
+            
           </div>
 
           <div className="growthitem3">
-            <div>
+            <div className="iconbox">
               <img src={Group948} alt="" />
               <p> Work on things you love </p>
             </div>
-            <div>
+            <div className="iconbox">
               <img src={Group975} alt="" />
               <p> No red tape, no long appointment </p>
             </div>
-            <div>
+            <div className="iconbox">
               <img src={Group976} alt="" />
               <p> Nothing like going forward as a team </p>
             </div>
-            <div>
+            <div className="iconbox">
               <img src={Group977} alt="" />
               <p> Do what you love, Love what you do </p>
             </div>
