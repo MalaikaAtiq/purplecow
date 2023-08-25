@@ -1,3 +1,19 @@
+/**
+ Copyright (c) 2023, Xgrid Inc, http://xgrid.co
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+ http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
 import React from "react"
 import './careers.css'
 import growth1 from '../../assets/images/careers/careers-culture.png'
@@ -19,23 +35,23 @@ import Group976 from '../../assets/images/careers/Group 976.png'
 import Group977 from '../../assets/images/careers/Group 977.png'
 import Group973 from '../../assets/images/careers/Group 973.png'
 
-function Careers() {
+const Careers = () => {
   return (
     <div>
 
       <div className="openings">
-        <div className="openingstext">
+        <div className="openings-text">
           <h2> Let's make a dent in the universe together! </h2>
           <p> At Xgrid, you are guaranteed a chance to transform your career, your team, and your community. </p>
           <button> View Openings <span className="buttonvector"> <img src={vector} alt="" /> </span></button>
         </div>
 
-        <div className="openingsimage">
+        <div className="openings-image">
           <img src={Group974} alt="careers" />
         </div>
       </div>
 
-      <div className="lifeatxgrid">
+      <div className="life-at-xgrid">
         <h2>
           Life at <span style={{ "color": "#6F63DE" }}> Xgrid </span>
         </h2>
@@ -44,9 +60,9 @@ function Careers() {
 
       <div className="reasons">
         <h2> 6 reasons why you'd love <span style={{ "color": "#6F63DE" }}> this place </span> </h2>
-        <div className="reasonscontainer">
+        <div className="reasons-container">
 
-          <div className="reasonitem1">
+          <div className="reason-item1">
             <div>
               <img src={Group981} alt="" />
               <p> Align your key skills with your long term goals </p>
@@ -64,7 +80,7 @@ function Careers() {
 
           </div>
 
-          <div className="reasonitem2">
+          <div className="reason-item2">
             <div>
               <img src={clock} alt="" />
               <p> No clock ins clock outs because we trust you </p>
@@ -82,7 +98,7 @@ function Careers() {
           </div> 
 
 
-          <div className="reasonsimage">
+          <div className="reasons-image">
             <img src={Group970} alt="" />
           </div>
 
@@ -93,17 +109,17 @@ function Careers() {
       <div className="growth">
         <h2> Culture that is conducive to your <span style={{ "color": "#6F63DE" }}> growth </span> </h2>
 
-        <div className="growthcontainer">
+        <div className="growth-container">
 
 
-          <div className="growthitem1">
+          <div className="growth-item1">
             <img src={growth1} alt="" className="growth1" />
 
-            <p className="bestplace"> best place.. </p>
+            <p className="best-place"> best place.. </p>
           </div>
 
 
-          <div className="growthitem2">
+          <div className="growth-item2">
             <img src={growth2} alt="" className="growth2" />
 
           <div className="iconbox">
@@ -118,7 +134,7 @@ function Careers() {
             
           </div>
 
-          <div className="growthitem3">
+          <div className="growth-item3">
             <div className="iconbox">
               <img src={Group948} alt="" />
               <p> Work on things you love </p>
@@ -142,14 +158,14 @@ function Careers() {
       </div>
 
       <div className="footprint">
-        <h2 className="footprinthead1"> Global Footprint </h2>
+        <h2 className="footprint-head1"> Global Footprint </h2>
         <p> Top tiered performance is expected, delivered, and maintained at Xgrid. Anything less is simply unacceptable </p>
         <img src={Group973} alt="" />
         <h2 className="footprinthead2"> Do you have what it takes to be a part of Xgrid? </h2>
         <button> View Openings</button>
       </div>
 
-      <div className="formcontainer">
+      <div className="form-container">
         <div className="heading">
           <h2> Ready to get Started? </h2>
           <p> Describe your project and leave us your contact info, we'll get back to you within 24 hours. </p>
@@ -160,7 +176,7 @@ function Careers() {
             <input type="text" placeholder="What's Your Name?" />
             <input type="text" placeholder="What's Your Email?" />
             <textarea type="text" placeholder="Tell us about your project." />
-            <div className="formbutton">
+            <div className="form-button">
               <button> Submit </button>
             </div>
 
