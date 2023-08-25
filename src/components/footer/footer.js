@@ -14,9 +14,15 @@
  limitations under the License.
  */
 
+ //importing react library
 import React from "react";
+
+//importing styles
 import './footer.css'
+
+//importing images
 import logo from '../../assets/images/careers/download.png'
+
 const Footer = () => {
   return (
     <div>

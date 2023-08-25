@@ -14,10 +14,13 @@
  limitations under the License.
  */
 
+ //component imports
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
-import './App.css';
 import Careers from './pages/careers/careers';
+
+//style import
+import './App.css';
 
 const App = ()=> {
   return (

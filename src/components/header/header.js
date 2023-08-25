@@ -14,8 +14,13 @@
  limitations under the License.
  */
 
+ //importing react library
 import React from "react";
+
+//importing images
 import logo from '../../assets/images/xgrid-logo-menu.83dfe4a4 (1).svg'
+
+//importing styles
 import './header.css'
 
 const Header = () => {

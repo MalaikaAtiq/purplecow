@@ -14,8 +14,13 @@
  limitations under the License.
  */
 
+ //importing react library
 import React from "react"
+
+//importing styles
 import './careers.css'
+
+//image imports
 import growth1 from '../../assets/images/careers/careers-culture.png'
 import growth2 from '../../assets/images/careers/careers-culture-2.png'
 import honesty from '../../assets/images/careers/Group 979.png'
