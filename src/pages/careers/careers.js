@@ -166,7 +166,7 @@ const Careers = () => {
         <h2 className="footprint-head1"> Global Footprint </h2>
         <p> Top tiered performance is expected, delivered, and maintained at Xgrid. Anything less is simply unacceptable </p>
         <img src={Group973} alt="" />
-        <h2 className="footprinthead2"> Do you have what it takes to be a part of Xgrid? </h2>
+        <h2 className="footprint-head2"> Do you have what it takes to be a part of Xgrid? </h2>
         <button> View Openings</button>
       </div>
 
