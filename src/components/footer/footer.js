@@ -14,14 +14,19 @@
  limitations under the License.
  */
 
- //importing react library
+//importing react library
 import React from "react";
 
 //importing styles
 import './footer.css'
 
 //importing images
-import logo from '../../assets/images/careers/download.png'
+import logo from '../../assets/images/xgrid-logo-menu.83dfe4a4 (1).svg'
+import facebook from '../../assets/images/footer/facebook.svg'
+import youtube from '../../assets/images/footer/youtube.svg';
+import twitter from '../../assets/images/footer/twitter.svg';
+import instagram from '../../assets/images/footer/instagram.svg';
+import linkedin from '../../assets/images/footer/linkedin.svg';
 
 const Footer = () => {
   return (
@@ -59,8 +64,17 @@ const Footer = () => {
         </div>
       </div>
 
+      <div className="social"> 
+      <img src={facebook} alt="" />
+      <img src={youtube} alt="" />
+      <img src={twitter} alt="" />
+      <img src={instagram} alt="" />
+      <img src={linkedin} alt="" />
+      </div>
+      
+
       <div className="footer-bottom">
-        <div className="social">
+        <div className="terms">
           <p>  <a href="/"> Privacy Policy </a> | <a href="/"> Terms And Conditions </a> | <a href="/"> Security </a></p>
         </div>
 

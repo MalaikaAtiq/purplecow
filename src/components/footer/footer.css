@@ -2,9 +2,14 @@
 
 .footer {
   margin: 3% 10%;
+  margin-top: 7rem;
+  margin-left: 14.375rem;
   display: flex;
 }
 
+.footer .col2 ul{
+  padding-left: 0
+}
 .footer .col2 ul>li {
   list-style-type: none;
   line-height: 30px;
@@ -16,54 +21,67 @@
   text-decoration: none;
   color: black;
   display: block;
+  font-size: 0.875rem;
 }
 
 .footer .col1 {
-  width: 30%;
+  width: 40rem;
 }
 
 .footer .col1 p {
   font-family: 'Inter-Light';
+  font-size: 0.875rem;
   line-height: 1.688rem;
+  margin-right: 14rem;
 }
 
 .footer .col2 {
   display: flex;
   justify-content: right;
-  margin-right: 50px;
-  width: 40%;
+  width: 16rem;
 }
 
 .footer .col2 h4 {
   font-family: 'Inter-Semi-Bold';
-  margin-left: 40px;
+  font-size: 0.875rem;
 }
 
 .footer .col3 {
-  width: 30%
+  width: 32rem;
+  margin-left: 7rem;
 }
 
 .footer .col3 h4, .col3 h5{
-  font-family: 'Inter-Semi-Bold'
+  font-family: 'Inter-Semi-Bold';
+  font-size: 0.875rem;
 }
 
 .footer .col3 p{
   font-family: 'Inter-Light';
+  font-size: 0.875rem;
 }
 
-.logo {
-  width: 30%;
-  height: 17%;
-}
 
 .footer-bottom {
   margin: 0 10%;
   display: flex;
   justify-content: space-between;
+  margin-left: 14.375rem;
 }
 
-.social a {
+.terms a {
   font-weight: 500;
+  font-family: 'Inter-Regular';
   text-decoration: none;
-  color: black
+  color: black;
+  font-size: .875rem;
+  line-height: 1.688rem;
+}
+
+.social{
+  margin-left: 14.375rem;
+}
+
+.social img{
+  margin-right: 26px
 }

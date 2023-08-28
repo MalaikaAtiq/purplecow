@@ -14,7 +14,7 @@
  limitations under the License.
  */
 
- //importing react library
+//importing react library
 import React from "react"
 
 //importing styles
@@ -26,9 +26,10 @@ import growth2 from '../../assets/images/careers/careers-culture-2.png'
 import honesty from '../../assets/images/careers/Group 979.png'
 import goal from '../../assets/images/careers/Group 978.png'
 import clock from '../../assets/images/careers/clock.svg'
-import vector from '../../assets/images/careers/Vector.svg'
+import headernew from '../../assets/images/careers/careers-header-new.72b60932.png'
 import Group970 from '../../assets/images/careers/Group 970.png'
-import Group974 from '../../assets/images/careers/Group 974.png'
+import vector from '../../assets/images/careers/Vector.svg';
+//import Group974 from '../../assets/images/careers/Group 974.png'
 import Group981 from '../../assets/images/careers/Group 981.png'
 import Group982 from '../../assets/images/careers/Group 982.png'
 import Group985 from '../../assets/images/careers/Group 985.png'
@@ -48,11 +49,11 @@ const Careers = () => {
         <div className="openings-text">
           <h2> Let's make a dent in the universe together! </h2>
           <p> At Xgrid, you are guaranteed a chance to transform your career, your team, and your community. </p>
-          <button> View Openings <span className="buttonvector"> <img src={vector} alt="" /> </span></button>
+            <button> View Openings <span className="button-vector"> <img src={vector} alt="" /> </span> </button>
         </div>
 
         <div className="openings-image">
-          <img src={Group974} alt="careers" />
+          <img src={headernew} alt="careers" />
         </div>
       </div>
 
@@ -112,7 +113,7 @@ const Careers = () => {
       </div>
 
       <div className="growth">
-        <h2> Culture that is conducive to your <span style={{ "color": "#6F63DE" }}> growth </span> </h2>
+        <h2> Culture that is conducive to <span style={{ "color": "#6F63DE" }}> your growth </span> </h2>
 
         <div className="growth-container">
 
@@ -167,7 +168,7 @@ const Careers = () => {
         <p> Top tiered performance is expected, delivered, and maintained at Xgrid. Anything less is simply unacceptable </p>
         <img src={Group973} alt="" />
         <h2 className="footprint-head2"> Do you have what it takes to be a part of Xgrid? </h2>
-        <button> View Openings</button>
+        <button> View Openings <span className="button-vector"> <img src={vector} alt="" /> </span> </button>
       </div>
 
       <div className="form-container">

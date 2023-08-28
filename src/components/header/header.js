@@ -19,6 +19,7 @@ import React from "react";
 
 //importing images
 import logo from '../../assets/images/xgrid-logo-menu.83dfe4a4 (1).svg'
+import newtab from '../../assets/images/newtab.svg'
 
 //importing styles
 import './header.css'
@@ -34,9 +35,11 @@ const Header = () => {
 
         <div className="col2"> 
         <ul>
-            <li> <a href="/"> Cloud & Devops </a></li>
+            <li> <a href="/"> Cloud & DevOps </a></li>
             <li> <a href="/"> Web & Mobile Apps </a></li>
-            <li> <a href="/"> Digital Marketing </a> </li>
+            <li> <a href="/"> Digital Marketing 
+            <div className="newtab">
+            <span > <img src={newtab} alt="" /> </span>  </div></a>  </li>
         </ul>
         </div>
 
@@ -53,4 +56,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

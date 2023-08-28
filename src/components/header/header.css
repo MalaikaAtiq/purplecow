@@ -4,14 +4,14 @@
   display: flex;
   align-items: center;
   background-color: #f9f9fc;
-  padding-left: 229.6px;
-  padding-right: 162.4px;
-  padding-top: 40px;
+  padding-top: 35px;
+  padding-left: 230px;
+  padding-right: 9.1rem;
 }
 
 .header .col2{
   flex-grow: 2;
-  margin-left: 55px
+  margin-left: 60px
 }
 
 .header .col2 ul{
@@ -20,14 +20,23 @@
 
 .header .col2 li{
   list-style-type: none;
-  margin: 0 30px
+  margin-left: 40px;
 }
 .header .col2 a{
   font-family: 'Inter-Regular';
   text-decoration: none;
   color: black;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.newtab{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 .header .col3{
@@ -44,6 +53,6 @@
 .header .col3 hr.bottom{
   width: 59px;
   margin-right: 20px;
-  margin-top: 13px;
+  margin-top: 16px;
   border-top: 4px solid #6F63DE;
 }

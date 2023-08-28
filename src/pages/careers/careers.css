@@ -3,10 +3,10 @@
 .openings {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 69px;
   padding-bottom: 50px;
-  padding-left: 229.6px;
-  padding-right: 162.4px;
+  padding-left: 15.125rem;
+  padding-right: 7.15rem;
   background-color: #f9f9fc;
 }
 
@@ -35,15 +35,26 @@
 .openings-text button {
   font-family: 'Inter-Regular';
   background-color: #6F63DE;
+  font-weight: 500;
   width: 14.813rem;
-  height: 3.563rem;
-  border-radius: 8px;
+  height: 3.563rem; 
+  line-height: 24px;
+  border-radius: .3rem;
   font-size: 16px;
   color: white;
   border: none;
 }
-.button-vector{
+
+.openings-text button:hover .button-vector img {
+  transform: translateX(10px); 
+  transition: transform 0.3s ease; 
+}
+
+.button-vector img{
   margin-left: 2%;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px
 }
 .openings-image {
   max-width: 100%;
@@ -53,7 +64,7 @@
 .life-at-xgrid {
   text-align: center;
   padding-top: 96px;
-  padding-left: 229.6px;
+  padding-left: 242px;
   padding-right: 162.4px;
   padding-bottom: 96px;
 }
@@ -76,7 +87,7 @@ iframe {
 }
 
 .reasons {
-  padding: 5% 10%;
+  padding: 5% 15.875rem;
   background-color: #f9f9fc;
 }
 
@@ -86,7 +97,7 @@ iframe {
   font-size: 4.375rem;
   font-weight: 400;
   line-height: 105px;
-  margin: 0 23%;
+  margin: 0 14.938rem;
 }
 
 .reasons-container {
@@ -97,7 +108,7 @@ iframe {
 
 .reason-item1 div,
 .reason-item2 div {
-  margin: 13% 0;
+  margin-bottom: 6.688rem;
 }
 
 .reason-item1 div>p {
@@ -106,7 +117,8 @@ iframe {
   font-weight: 500;
   line-height: 2.438rem;
   letter-spacing: 0em;
-  margin-right: 20%;
+  margin-right: 2.063rem;
+  margin-top: 1.375rem;
 }
 
 .reason-item2 div>p {
@@ -115,13 +127,15 @@ iframe {
   font-weight: 500;
   line-height: 2.438rem;
   letter-spacing: 0em;
-  margin-right: 25%;
+  margin-right: 10%;
+  margin-top: 1.375rem;
 }
 
 .growth {
-  padding-top:96px;
-  padding-left: 229.6px;
+  padding-top:9rem;
+  padding-left: 15.125rem;
   padding-right: 162.4px;
+  padding-bottom: 6rem;
 }
 
 .growth h2 {
@@ -131,12 +145,14 @@ iframe {
   font-weight: 400;
   line-height: 105px;
   letter-spacing: -0.02em;
-  margin: 0 20%;
+  margin-left: 15.688rem;
+  margin-right: 17.375rem;
+  margin-top:0;
 }
 
 .growth-container {
   display: flex;
-  margin: 5% 0;
+  margin-top: 1.688rem;
 }
 
 .growth-item1 {
@@ -150,8 +166,8 @@ iframe {
   font-weight: 500;
   line-height: 5.938rem;
   transform: rotate(-20deg);
-  margin-top: -25%;
-  margin-left: 60%;
+  margin-top: -27%;
+  margin-left: 52%;
   margin-bottom: 0;
 }
 
@@ -179,8 +195,8 @@ iframe {
   font-weight: 500;
   line-height: 2.438rem;
   letter-spacing: 0em;
-  margin-left: 5%;
-  margin-right: 25%;
+  margin-left: 1.5rem;
+  margin-right: 15%;
 }
 
 .iconbox {
@@ -198,7 +214,8 @@ iframe {
 
 
 .footprint {
-  padding: 3% 10%;
+  padding: 5.375rem 10%;
+  padding-left: 15.125rem;
   background-color: #f9f9fc;
   text-align: center;
 }
@@ -206,12 +223,19 @@ iframe {
 .footprint button {
   font-family: 'Inter-Regular';
   background-color: #6F63DE;
+  font-weight: 500;
   width: 14.813rem;
-  height: 3.563rem;
-  border-radius: 8px;
+  height: 3.563rem; 
+  line-height: 24px;
+  border-radius: .3rem;
   font-size: 16px;
   color: white;
   border: none;
+}
+
+.footprint button:hover .button-vector img {
+  transform: translateX(10px); 
+  transition: transform 0.3s ease; 
 }
 
 .footprint-head1 {
